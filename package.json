@@ -1,0 +1,25 @@
+{
+  "name": "demo-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "dev": "./node_modules/.bin/webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.4.0",
+    "mini-css-extract-plugin": "^2.4.3",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "style-loader": "^3.3.1"
+  }
+}
